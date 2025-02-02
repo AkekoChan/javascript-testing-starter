@@ -12,8 +12,7 @@
     "coverage": "vitest run --coverage",
     "format": "prettier . --writter",
     "lint": "eslint . --fix",
-    "check-types": "tsc",
-    "prepare": "husky"
+    "check-types": "tsc"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
@@ -21,7 +20,6 @@
     "@vitest/ui": "^3.0.4",
     "eslint": "^9.19.0",
     "globals": "^15.14.0",
-    "husky": "^9.1.7",
     "prettier": "^3.4.2",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.22.0",
